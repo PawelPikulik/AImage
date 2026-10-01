@@ -11,8 +11,10 @@ failed attempt still spent money.
 from __future__ import annotations
 
 import logging
-from datetime import timedelta
+import time
+from datetime import timedelta, timezone
 
+from sqlalchemy import func
 from sqlalchemy.orm import Session, sessionmaker
 
 from app.config import Settings
@@ -122,9 +124,33 @@ def run_until_idle(
     *,
     max_rounds: int = 10_000,
 ) -> dict:
-    """Drain the queue (used by seed script and tests)."""
+    """Drain the queue (used by seed script and tests).
+
+    When nothing is currently due but pending retries remain scheduled in the
+    future (backoff), wait for the next due item instead of exiting early —
+    otherwise a rate-limit storm would leave the queue half-drained.
+    `job_item_pace_seconds` adds courtesy spacing between items (free-tier RPM).
+    """
     worked = 0
     with session_factory() as session:
-        while worked < max_rounds and run_next_item(session, provider, settings):
-            worked += 1
+        while worked < max_rounds:
+            if run_next_item(session, provider, settings):
+                worked += 1
+                if settings.job_item_pace_seconds > 0:
+                    time.sleep(settings.job_item_pace_seconds)
+                continue
+            next_due = (
+                session.query(func.min(JobItem.run_after))
+                .filter(JobItem.status == "pending")
+                .scalar()
+            )
+            if next_due is None:
+                break
+            if next_due.tzinfo is None:  # SQLite returns naive datetimes
+                next_due = next_due.replace(tzinfo=timezone.utc)
+            wait = (next_due - utcnow()).total_seconds()
+            if wait <= 0:
+                continue
+            log.info("queue drained for now; next retry due in %.1fs — waiting", min(wait, 60))
+            time.sleep(min(wait + 0.05, 60))
     return {"items_processed": worked}

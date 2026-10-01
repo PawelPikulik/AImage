@@ -49,9 +49,23 @@ The mismatch guard (`app/services/guard.py`) rejects a candidate when, in order:
 2. the image's vision confidence fell below the floor at ingestion (flagged, not trusted);
 3. cosine similarity is below the tuned threshold (`config/thresholds.json` / DB).
 
+## Live provider status (2026-10-01)
+
+A Google AI Studio key has been provisioned and configured by the maintainer in
+`.env` (gitignored, never committed). A live smoke run against real Gemini tagged
+6 corpus images with genuine model output (e.g. fox-01 → `subject: "red fox",
+confidence: 0.98`, caption *"A close-up portrait of a fluffy red fox looking
+directly at the camera…"*) and logged real token counts per call — see
+EVIDENCE.md § "Live provider smoke run". The full 46-image live run is deferred:
+the free tier caps `gemini-3.8-flash` at **20 generate-content requests/day**
+(verified from the 429 quota body), so the defaults now use `gemini-3.7-flash`.
+The seed is resumable across models/days — re-running it skips tagged images.
+
 ## Run it (Docker, one command)
 
 Prereqs: Docker, and a free Gemini key from <https://aistudio.google.com/apikey> (no card).
+Note: free-tier daily caps differ per model; `gemini-3.7-flash` is the default
+because it served live vision calls at build time (see `.env.example` comments).
 
 ```bash
 cp .env.example .env          # paste your GEMINI_API_KEY
@@ -131,3 +145,7 @@ pytest
   its embeddings are lexical, so offline precision (1.000) overstates semantic quality.
   The real number comes from a live Gemini run: `MOCK_AI=false python -m app.seed &&
   python -m app.eval` (docker compose equivalent above), then update the table above.
+- The guard's subject taxonomy is alias-driven; the live model answers with
+  breeds/subspecies (observed: "Mexican wolf", "Cane Corso", "red fox kits").
+  Common ones are mapped in `app/services/textnorm.py`; unmapped subjects are
+  conservatively rejected as "subject unverifiable" rather than guessed.

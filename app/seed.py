@@ -63,6 +63,9 @@ def seed(session, settings) -> dict:
 
 
 def main() -> None:
+    import logging
+
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-wait", action="store_true", help="enqueue jobs but do not run them here")
     args = parser.parse_args()

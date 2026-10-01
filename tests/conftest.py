@@ -40,6 +40,7 @@ def settings(tmp_path) -> Settings:
         confidence_floor=0.70,
         job_retry_base_seconds=0.0,  # no backoff delay in tests
         job_max_attempts=3,
+        job_item_pace_seconds=0.0,  # explicit: don't inherit a live-run env value
         cost_budget_usd=5.0,
         ranking_candidates=10,
     )

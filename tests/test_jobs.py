@@ -75,6 +75,26 @@ class TestRetries:
             assert kinds == ["vision"]
 
 
+    def test_drain_waits_for_backoff_retries(self, session_factory, settings, mini_corpus, db):
+        """Regression: run_until_idle must not exit while retries are scheduled
+        in the future (found in the live run: a 429 storm left items pending)."""
+        import time
+
+        settings.job_retry_base_seconds = 0.5  # first retry lands 0.5s in the future
+        image = _one_image(db)
+        job = jobs.enqueue_job(db, settings, jobs.KIND_IMAGE, [image.id])
+        db.commit()
+
+        started = time.monotonic()
+        jobs.run_until_idle(session_factory, FlakyOnceProvider(), settings)
+        elapsed = time.monotonic() - started
+
+        with session_factory() as check:
+            item = check.query(JobItem).filter_by(job_id=job.id).one()
+            assert item.status == "done"  # retried and recovered, not abandoned
+            assert elapsed >= 0.4  # proof it actually waited out the backoff
+
+
 class TestIdempotentEnqueue:
     def test_double_enqueue_while_active_creates_no_duplicates(
         self, session_factory, settings, mini_corpus, db

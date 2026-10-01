@@ -27,8 +27,13 @@ class Settings(BaseSettings):
     database_url: str = "postgresql+psycopg://postgres:postgres@localhost:5432/imagematch"
 
     gemini_api_key: str = ""
-    gemini_vision_model: str = "gemini-2.5-flash"
-    gemini_text_model: str = "gemini-2.5-flash"
+    # Model availability and free-tier daily caps vary per model and change over
+    # time (verified live 2026-10-01: 2.5-flash closed to new keys; 3.8-flash free
+    # tier = 20 generate-content requests/day). 3.7-flash served real vision calls.
+    # The seed is resumable — if your key hits a daily cap mid-run, switch the
+    # model here/in .env and re-run; already-tagged rows are skipped.
+    gemini_vision_model: str = "gemini-3.7-flash"
+    gemini_text_model: str = "gemini-3.7-flash"
     gemini_embed_model: str = "gemini-embedding-001"
     embed_dims: int = 768
 
@@ -42,6 +47,7 @@ class Settings(BaseSettings):
     worker_poll_interval_seconds: float = 2.0
     job_max_attempts: int = 4
     job_retry_base_seconds: float = 2.0
+    job_item_pace_seconds: float = 0.0  # >0 paces job items (free-tier rate limits)
 
     ranking_candidates: int = 15  # > 12 foxes so the top rejected candidate is visible inline
 

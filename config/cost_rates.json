@@ -1,6 +1,8 @@
 {
   "_comment": "USD per 1M tokens, published list prices (ai.google.dev/gemini-api/docs/pricing). The Gemini free tier bills $0 — we still record the estimated cost per call as a production habit, and the budget guard (COST_BUDGET_USD) works off these estimates.",
-  "gemini-2.5-flash": { "input_per_mtok": 0.30, "output_per_mtok": 2.50 },
+  "gemini-3.8-flash": { "input_per_mtok": 0.30, "output_per_mtok": 2.50 },
+  "gemini-3.7-flash": { "input_per_mtok": 0.30, "output_per_mtok": 2.50 },
+  "gemini-flash-lite-latest": { "input_per_mtok": 0.10, "output_per_mtok": 0.40 },
   "gemini-embedding-001": { "input_per_mtok": 0.15, "output_per_mtok": 0.0 },
   "mock-vision": { "input_per_mtok": 0.30, "output_per_mtok": 2.50 },
   "mock-text": { "input_per_mtok": 0.30, "output_per_mtok": 2.50 },

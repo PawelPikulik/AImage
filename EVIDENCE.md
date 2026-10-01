@@ -11,6 +11,35 @@ To reproduce against the **live Gemini provider**: put a free AI Studio key in `
 
 ---
 
+## Live provider smoke run (real Gemini — 2026-10-01)
+
+A maintainer-provisioned AI Studio key (in `.env`, gitignored) ran the real
+pipeline: vision tagging with `gemini-3.7-flash` / `gemini-3.8-flash`, embeddings
+with `gemini-embedding-001`. Six images were tagged with genuine model output
+before the free-tier daily cap stopped the run (see BUILDLOG). Real persisted tags:
+
+| file | subject | conf | caption (abridged) |
+|---|---|---|---|
+| fox-01.jpg | red fox | 0.98 | "A close-up portrait of a fluffy red fox looking directly at the camera…" |
+| fox-04.jpg | red fox kits | 0.98 | "Four young red fox kits peer out together from the entrance of their earthen burrow." |
+| fox-06.jpg | red fox kits | 0.98 | "Two young red fox kits rest close together on a patch of grass…" |
+| wolf-02.jpg | gray wolf | 0.98 | "A gray wolf stands atop a fallen log in a lush forest environment." |
+| wolf-05.jpg | Mexican wolf | 0.95 | "A Mexican gray wolf runs across a dry, sunlit field…" |
+| dog-01.jpg | Cane Corso | 0.92 | "A close-up profile portrait of a fawn mastiff with a black mask…" |
+
+Per-call cost attribution with **real token counts** from `usage_metadata`:
+
+```
+vision    gemini-3.8-flash       calls=4  tokens=5293
+vision    gemini-3.7-flash       calls=2  tokens=2673
+embedding gemini-embedding-001   calls=6  tokens=144
+```
+
+Every response passed `ImageTags` schema validation; subjects above feed the guard
+through the alias map ("Mexican wolf" → wolf, "Cane Corso" → dog, "red fox kits" →
+fox). The full-corpus live run is pending the daily-quota reset; the seed resumes
+idempotently (`python -m app.seed`, or `docker compose exec api python -m app.seed`).
+
 ## Section 6 — Requirements
 
 ### AI processing

@@ -45,6 +45,20 @@ ALIASES: dict[str, str] = {
     "white-tailed deer": "deer",
     "cervus elaphus": "deer",
     "dama dama": "deer",
+    # Breeds/subspecies the live vision model actually returns (observed in the
+    # 2026-10-01 smoke run: "Mexican wolf", "Cane Corso") → map to canonical.
+    "mexican wolf": "wolf",
+    "arctic wolf": "wolf",
+    "timber wolf": "wolf",
+    "cane corso": "dog",
+    "mastiff": "dog",
+    "labrador": "dog",
+    "golden retriever": "dog",
+    "german shepherd": "dog",
+    "fox kit": "fox",
+    "fox kits": "fox",
+    "bear cub": "bear",
+    "fawn": "deer",
 }
 
 # Longest aliases first so "red fox" wins over "fox" when scanning free text.

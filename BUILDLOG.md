@@ -45,6 +45,30 @@ part of this codebase on request.
    that breaks in multi-container Docker (api vs worker filesystems). Now the tuner
    writes the `app_config` table (authoritative) and the file is just a clone default.
 
+## Live provider integration (2026-10-01)
+
+The maintainer provisioned a Google AI Studio key and placed it in `.env`
+(gitignored — verified never committed). Live work done against the real API:
+
+- **Auth + structured output confirmed.** Real Gemini vision tags persisted for 6
+  corpus images (see EVIDENCE.md live section), real token counts in `cost_log`.
+- **Model availability changes found by probing the live API** (the brief's model
+  names had drifted): `gemini-2.5-flash` is closed to new keys → API recommended
+  `gemini-3.8-flash` → its free tier turned out to be 20 generate-content
+  requests/day (read from the 429 quota body) → defaults moved to
+  `gemini-3.7-flash`, which served real vision calls. Embeddings on
+  `gemini-embedding-001` worked throughout.
+- **A real bug found only under live rate limiting:** the job drain loop exited
+  when all remaining items sat in future backoff, abandoning retries. Fixed
+  (`run_until_idle` now waits for the next due item) + regression test added +
+  `JOB_ITEM_PACE_SECONDS` pacing knob for free-tier RPM.
+- **Alias map extended** from observed live output: the model answers with
+  breeds/subspecies ("Mexican wolf", "Cane Corso", "red fox kits"), now mapped
+  to canonical subjects in `app/services/textnorm.py`.
+- **Full 46-image live run deferred:** free-tier daily caps + a 503 demand spike
+  made a single-day full run impractical during the session. Everything needed is
+  committed; the seed resumes where it left off.
+
 ## What I verified myself vs. what you should re-check
 
 I ran the full offline suite (39 passed) and the end-to-end seed + eval + API probe
