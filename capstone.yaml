@@ -1,0 +1,36 @@
+# Evaluator manifest — the machine-readable entry points of this repo.
+name: flyrank-capstone-image-relevance
+
+# Boot the whole system (db + api + worker). Requires .env (see .env.example)
+# and data/corpus/ (python scripts/download_corpus.py).
+run: docker compose up --build
+
+# Seed demo data: 46 images + 13 posts, batch-processed, guard auto-tuned.
+seed: docker compose exec api python -m app.seed
+
+# Offline test suite (no API key needed; deterministic mock provider).
+test: pytest
+
+base_url: http://localhost:8000
+
+endpoints:
+  - method: GET
+    path: /healthz
+  - method: GET
+    path: /posts
+  - method: GET
+    path: /posts/1/images          # ranked suggestions + guard verdicts (fox post)
+  - method: GET
+    path: /posts/11/images         # coral post -> "no_confident_match" + reasons
+  - method: POST
+    path: /posts/1/guard-check     # body {"image_id": <wolf image id>} -> REJECTED
+  - method: GET
+    path: /images?flagged=true     # low-confidence flagged images
+  - method: GET
+    path: /suggestions?status=pending
+  - method: POST
+    path: /suggestions/1/approve
+  - method: POST
+    path: /suggestions/2/reject
+  - method: GET
+    path: /costs

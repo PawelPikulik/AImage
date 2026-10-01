@@ -1,0 +1,18 @@
+{
+  "description": "Hand-labeled evaluation set. 'expected_subject' = the canonical subject of the correct image for the post (the corpus holds several equally-correct images per subject, so labels are subject-level: any correctly-ranked fox counts for a fox post). Top-1 precision is measured over these. 'expected_rejection' = no corpus image is suitable; the system must answer no_confident_match.",
+  "entries": [
+    { "post_title": "The behavior of red foxes", "expected_subject": "fox" },
+    { "post_title": "Vulpes vulpes: the adaptable red fox", "expected_subject": "fox" },
+    { "post_title": "Foxes in folklore and culture", "expected_subject": "fox" },
+    { "post_title": "How gray wolves hunt in packs", "expected_subject": "wolf" },
+    { "post_title": "Why wolves howl at the moon", "expected_subject": "wolf" },
+    { "post_title": "Training your new dog: the first week", "expected_subject": "dog" },
+    { "post_title": "The search-and-rescue dogs of the mountains", "expected_subject": "dog" },
+    { "post_title": "Brown bears and the art of hibernation", "expected_subject": "bear" },
+    { "post_title": "A hiker's guide to bear safety", "expected_subject": "bear" },
+    { "post_title": "Deer migration through the seasons", "expected_subject": "deer" },
+    { "post_title": "Coral reefs: the underwater cities", "expected_rejection": true },
+    { "post_title": "Baking sourdough bread at home", "expected_rejection": true },
+    { "post_title": "Chasing the northern lights", "expected_rejection": true }
+  ]
+}
