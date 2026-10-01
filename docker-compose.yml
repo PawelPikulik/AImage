@@ -1,0 +1,48 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: imagematch
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d imagematch"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: .
+    env_file:
+      - path: .env
+        required: false  # cp .env.example .env — the app errors clearly if no key
+    environment:
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@db:5432/imagematch
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/corpus:/srv/app/data/corpus:ro  # host-downloaded corpus, live-mounted
+    depends_on:
+      db:
+        condition: service_healthy
+
+  worker:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@db:5432/imagematch
+    command: ["python", "-m", "app.worker"]
+    volumes:
+      - ./data/corpus:/srv/app/data/corpus:ro
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

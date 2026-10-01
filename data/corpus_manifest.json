@@ -1,0 +1,462 @@
+[
+  {
+    "filename": "fox-01.jpg",
+    "category": "red_fox",
+    "source_title": "File:Alaska Red Fox (Vulpes vulpes).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alaska_Red_Fox_(Vulpes_vulpes).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Alaska_Red_Fox_%28Vulpes_vulpes%29.jpg/960px-Alaska_Red_Fox_%28Vulpes_vulpes%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "artist": "Gregory \"Slobirdr\" Smith",
+    "sha256": "88f70831f1849756ba3a73351b622187c483c4147ca7abc8cb96ddc0cd874bcd"
+  },
+  {
+    "filename": "fox-02.jpg",
+    "category": "red_fox",
+    "source_title": "File:Arabian Red Fox with Juvenile.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Arabian_Red_Fox_with_Juvenile.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Arabian_Red_Fox_with_Juvenile.jpg/960px-Arabian_Red_Fox_with_Juvenile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "BirderSajan",
+    "sha256": "6d9e8344fc44f32480c9cb43c37bd86063d4ca3b17ce3f8d6f6b0d91c78a942a"
+  },
+  {
+    "filename": "fox-03.jpg",
+    "category": "red_fox",
+    "source_title": "File:Common foxes in the snow.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Common_foxes_in_the_snow.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Common_foxes_in_the_snow.jpg/960px-Common_foxes_in_the_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "artist": "Wilhelm Kuhnert",
+    "sha256": "8eccfb6847847c91bcb66532e8e769f3b8520f0ab6c932f9c6758253767ae0dd"
+  },
+  {
+    "filename": "fox-04.jpg",
+    "category": "red_fox",
+    "source_title": "File:Mlade lisice u rupi.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mlade_lisice_u_rupi.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Mlade_lisice_u_rupi.jpg/960px-Mlade_lisice_u_rupi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Divlja Srbija",
+    "sha256": "bb8e21afa9677d2a770b5409d896346ae902456d3353fa61da446985fc608b88"
+  },
+  {
+    "filename": "fox-05.jpg",
+    "category": "red_fox",
+    "source_title": "File:Portrait of a red fox in Rautas fjällurskog.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg/960px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "ClaudiaTen",
+    "sha256": "0e7398424e5273e9b6c0b69d2d87c45512b9804865a67f67fb77fcc8dccbf5e4"
+  },
+  {
+    "filename": "fox-06.jpg",
+    "category": "red_fox",
+    "source_title": "File:Red Fox (Vulpes vulpes) (4).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_Fox_(Vulpes_vulpes)_(4).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Red_Fox_%28Vulpes_vulpes%29_%284%29.jpg/960px-Red_Fox_%28Vulpes_vulpes%29_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ken Billington",
+    "sha256": "edc329a0338331876e5a98e6173df028aa2ab977868b296d7e27ebbd8021810d"
+  },
+  {
+    "filename": "fox-07.jpg",
+    "category": "red_fox",
+    "source_title": "File:Red Fox drinking from a lake in Gennevilliers, France.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_Fox_drinking_from_a_lake_in_Gennevilliers,_France.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Red_Fox_drinking_from_a_lake_in_Gennevilliers%2C_France.jpg/960px-Red_Fox_drinking_from_a_lake_in_Gennevilliers%2C_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "Alexis Lours",
+    "sha256": "4ea1369c92797f1a2e5bfe9222f02d3506b29d1543277877dfc41784edc30c37"
+  },
+  {
+    "filename": "fox-08.jpg",
+    "category": "red_fox",
+    "source_title": "File:Red fox (Vulpes vulpes crucigera) Skalnate Pleso 2.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes_crucigera)_Skalnate_Pleso_2.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Red_fox_%28Vulpes_vulpes_crucigera%29_Skalnate_Pleso_2.jpg/960px-Red_fox_%28Vulpes_vulpes_crucigera%29_Skalnate_Pleso_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "93957b771ed1bce269260cc11a6addf7f7f4bff1b86a94fb2f7e20921b4fc052"
+  },
+  {
+    "filename": "fox-09.jpg",
+    "category": "red_fox",
+    "source_title": "File:Red fox catches a vole - Tolyatti, Russia.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_fox_catches_a_vole_-_Tolyatti,_Russia.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Red_fox_catches_a_vole_-_Tolyatti%2C_Russia.jpg/960px-Red_fox_catches_a_vole_-_Tolyatti%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "artist": "Andrey Gulivanov",
+    "sha256": "489deb3f0c365ba1cd6f2713c31417dbae584ec72ede67c09cdadbf32e9e880e"
+  },
+  {
+    "filename": "fox-10.jpg",
+    "category": "red_fox",
+    "source_title": "File:Red fox kits playing Bombay Hook (36455).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_fox_kits_playing_Bombay_Hook_(36455).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Red_fox_kits_playing_Bombay_Hook_%2836455%29.jpg/960px-Red_fox_kits_playing_Bombay_Hook_%2836455%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Rhododendrites",
+    "sha256": "a814f6345fd70bd7dc73d970f664faf4caab93f2d1e013a07cd4171bd3effea5"
+  },
+  {
+    "filename": "fox-11.jpg",
+    "category": "red_fox",
+    "source_title": "File:Red Fox 2025 10 07.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_Fox_2025_10_07.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Red_Fox_2025_10_07.jpg/960px-Red_Fox_2025_10_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "Alexis Lours",
+    "sha256": "a02f6c0fccd81b0567b3fde255fa90341cfd188926b7fc7102587c45b5a74682"
+  },
+  {
+    "filename": "fox-12.jpg",
+    "category": "red_fox",
+    "source_title": "File:Vulpes vulpes laying in snow.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vulpes_vulpes_laying_in_snow.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Vulpes_vulpes_laying_in_snow.jpg/960px-Vulpes_vulpes_laying_in_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Attribution",
+    "artist": "Shiretoko-Shari Tourist Association",
+    "sha256": "4092ca5ff98c73cc9c6c8300bb9b221ba628b6898289b6298098f51a30df3873"
+  },
+  {
+    "filename": "wolf-01.jpg",
+    "category": "wolf",
+    "source_title": "File:Canis lupus - Wildpark Knüll 03.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canis_lupus_-_Wildpark_Kn%C3%BCll_03.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Canis_lupus_-_Wildpark_Kn%C3%BCll_03.jpg/960px-Canis_lupus_-_Wildpark_Kn%C3%BCll_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "artist": "H. Zell",
+    "sha256": "bc335dc7b0b4524c0de9c2828fab44d20b5adc981c4d13ec29933cfba0cfa4ee"
+  },
+  {
+    "filename": "wolf-02.jpg",
+    "category": "wolf",
+    "source_title": "File:Canis lupus Ernstbrunn.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canis_lupus_Ernstbrunn.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Canis_lupus_Ernstbrunn.jpg/960px-Canis_lupus_Ernstbrunn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mariofan13",
+    "sha256": "a3943cb7afebfd95c967663115a73c20e6af4ee06f2a55b6070380a46eca3b9e"
+  },
+  {
+    "filename": "wolf-03.jpg",
+    "category": "wolf",
+    "source_title": "File:Canis lupus Kopf.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canis_lupus_Kopf.JPG",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Canis_lupus_Kopf.JPG/960px-Canis_lupus_Kopf.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mariofan13",
+    "sha256": "7e0316075051cb7a007df3d1eaef3f46872d7e7289f7f14d858c952dc5154075"
+  },
+  {
+    "filename": "wolf-04.jpg",
+    "category": "wolf",
+    "source_title": "File:Canis lupus PO.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canis_lupus_PO.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Canis_lupus_PO.jpg/960px-Canis_lupus_PO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "artist": "Cephas",
+    "sha256": "22547851d916e1e9b69ae67b9fda34f472d99813fcaed677d186a76cb3ebec04"
+  },
+  {
+    "filename": "wolf-05.jpg",
+    "category": "wolf",
+    "source_title": "File:Canis lupus baileyi running.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canis_lupus_baileyi_running.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Canis_lupus_baileyi_running.jpg/960px-Canis_lupus_baileyi_running.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "artist": "Photographer: Jim Clark",
+    "sha256": "70f230bd8020b5321611f8d0aa4571dd2eb328657d0e2df10add500cca710be8"
+  },
+  {
+    "filename": "wolf-06.jpg",
+    "category": "wolf",
+    "source_title": "File:Canis lupus lupus in Alpenzoo, Innsbruck.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canis_lupus_lupus_in_Alpenzoo,_Innsbruck.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Canis_lupus_lupus_in_Alpenzoo%2C_Innsbruck.jpg/960px-Canis_lupus_lupus_in_Alpenzoo%2C_Innsbruck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "artist": "Wilfredor",
+    "sha256": "2ae490009da9def167d65212d2bb5956dcb64e48473f938a3d8ac45ed917ddd9"
+  },
+  {
+    "filename": "wolf-07.jpg",
+    "category": "wolf",
+    "source_title": "File:Canis lupus signatus - 01.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canis_lupus_signatus_-_01.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Canis_lupus_signatus_-_01.jpg/960px-Canis_lupus_signatus_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Carlos Delgado",
+    "sha256": "4509e02a18988d257658e8119eea39edf1501cd0d013c52da0decab2b939f2a0"
+  },
+  {
+    "filename": "wolf-08.jpg",
+    "category": "wolf",
+    "source_title": "File:Endangered gray wolf (Canis lupus).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Endangered_gray_wolf_(Canis_lupus).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Endangered_gray_wolf_%28Canis_lupus%29.jpg/960px-Endangered_gray_wolf_%28Canis_lupus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "artist": "USFWS Endangered Species",
+    "sha256": "f3eeafd67edf7988c0e9175b8aa9e9e12d9bebc83ec56af412d786fd49320050"
+  },
+  {
+    "filename": "dog-01.jpg",
+    "category": "dog",
+    "source_title": "File:Cane corso głowa profil 493o.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cane_corso_g%C5%82owa_profil_493o.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cane_corso_g%C5%82owa_profil_493o.jpg/960px-Cane_corso_g%C5%82owa_profil_493o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "artist": "Pleple2000",
+    "sha256": "acee3294ac36611dcabc7021486af0364aff35f487f648eb17f97f894c3283bb"
+  },
+  {
+    "filename": "dog-02.jpg",
+    "category": "dog",
+    "source_title": "File:DSC09611a Search and Rescue Dog, Austrian Red Cross Perchtoldsdorf, 2024-10.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:DSC09611a_Search_and_Rescue_Dog,_Austrian_Red_Cross_Perchtoldsdorf,_2024-10.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/DSC09611a_Search_and_Rescue_Dog%2C_Austrian_Red_Cross_Perchtoldsdorf%2C_2024-10.jpg/960px-DSC09611a_Search_and_Rescue_Dog%2C_Austrian_Red_Cross_Perchtoldsdorf%2C_2024-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "Aciarium",
+    "sha256": "c0ac0d25a9527a078489ea6eaf998e192ab2a01eb0a19a65f91805ed3066752c"
+  },
+  {
+    "filename": "dog-03.jpg",
+    "category": "dog",
+    "source_title": "File:Domestic dog in Ericeira, Portugal 003.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_003.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Domestic_dog_in_Ericeira%2C_Portugal_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY 4.0",
+    "artist": "TailsAndTrailsArchive",
+    "sha256": "9f3cc5e2bd89bfc7bbfbf32612f3c8df739b1d6256daad83b032bf05603058b0"
+  },
+  {
+    "filename": "dog-04.jpg",
+    "category": "dog",
+    "source_title": "File:Domestic dog in Ericeira, Portugal 019.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_019.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Domestic_dog_in_Ericeira%2C_Portugal_019.jpg/960px-Domestic_dog_in_Ericeira%2C_Portugal_019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "TailsAndTrailsArchive",
+    "sha256": "0c31466c9a8c003ae8455ec05789f65e4a0acc39804ccd8eacd1cc65b97a8946"
+  },
+  {
+    "filename": "dog-05.jpg",
+    "category": "dog",
+    "source_title": "File:Domestic dog in Ericeira, Portugal 042.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_042.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Domestic_dog_in_Ericeira%2C_Portugal_042.jpg/960px-Domestic_dog_in_Ericeira%2C_Portugal_042.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "TailsAndTrailsArchive",
+    "sha256": "c41992daa8beecb9c589f2d63990819d4ed9328d85e6f0ddeb79c4f9a9d2dd71"
+  },
+  {
+    "filename": "dog-06.jpg",
+    "category": "dog",
+    "source_title": "File:Domestic dog in Ericeira, Portugal 053.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_053.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Domestic_dog_in_Ericeira%2C_Portugal_053.jpg/960px-Domestic_dog_in_Ericeira%2C_Portugal_053.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "TailsAndTrailsArchive",
+    "sha256": "1427cfa4a73ba00bfaecf91a28662f4c9e11a32fa43e50829c42e98cfa28420b"
+  },
+  {
+    "filename": "dog-07.jpg",
+    "category": "dog",
+    "source_title": "File:Domestic dog in Ericeira, Portugal 082.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_082.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Domestic_dog_in_Ericeira%2C_Portugal_082.jpg/960px-Domestic_dog_in_Ericeira%2C_Portugal_082.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "TailsAndTrailsArchive",
+    "sha256": "c4115285e9ed214a84187f8dd1251e9f1a1f4f3fd2eb7d490cb6678651fe0e42"
+  },
+  {
+    "filename": "dog-08.jpg",
+    "category": "dog",
+    "source_title": "File:Domestic dog in Ericeira, Portugal 116.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_116.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Domestic_dog_in_Ericeira%2C_Portugal_116.jpg/960px-Domestic_dog_in_Ericeira%2C_Portugal_116.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "artist": "TailsAndTrailsArchive",
+    "sha256": "35f4c36e3da89dbcdf7631e676f9e1b404add9c3c76ad46ffede0bb8d35f4ee6"
+  },
+  {
+    "filename": "bear-01.jpg",
+    "category": "bear",
+    "source_title": "File:Brown bear (Ursus arctos arctos) running.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brown_bear_(Ursus_arctos_arctos)_running.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Brown_bear_%28Ursus_arctos_arctos%29_running.jpg/960px-Brown_bear_%28Ursus_arctos_arctos%29_running.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.5",
+    "artist": "Malene Thyssen",
+    "sha256": "767a1a498137db0b527f83b91d309ccb577007d68394a88a6496c141440f98c5"
+  },
+  {
+    "filename": "bear-02.jpg",
+    "category": "bear",
+    "source_title": "File:Eurasian brown bear (Ursus arctos arctos) adult female head.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_adult_female_head.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Eurasian_brown_bear_%28Ursus_arctos_arctos%29_adult_female_head.jpg/960px-Eurasian_brown_bear_%28Ursus_arctos_arctos%29_adult_female_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "43bc58676d128f83919a462bcb0c8a3d3705a2d65b49900adbf5d1daf317c9db"
+  },
+  {
+    "filename": "bear-03.jpg",
+    "category": "bear",
+    "source_title": "File:Eurasian brown bear (Ursus arctos arctos) cub 14 months.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_cub_14_months.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Eurasian_brown_bear_%28Ursus_arctos_arctos%29_cub_14_months.jpg/960px-Eurasian_brown_bear_%28Ursus_arctos_arctos%29_cub_14_months.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "2b63dfcc72c48ae26a0aa1920fec79c76b953ea1910dc77b1478804c099877c2"
+  },
+  {
+    "filename": "bear-04.jpg",
+    "category": "bear",
+    "source_title": "File:Eurasian brown bear (Ursus arctos arctos) cub 14 months scratching back.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_cub_14_months_scratching_back.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Eurasian_brown_bear_%28Ursus_arctos_arctos%29_cub_14_months_scratching_back.jpg/960px-Eurasian_brown_bear_%28Ursus_arctos_arctos%29_cub_14_months_scratching_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "87c9b3a8125c0b853ef788fb7f7b53285251c8cb8e73562bf765bbc23c8719a4"
+  },
+  {
+    "filename": "bear-05.jpg",
+    "category": "bear",
+    "source_title": "File:Eurasian brown bear (Ursus arctos arctos) female 1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_female_1.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_1.jpg/960px-Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "30cc390edb70d1bbd2082705fe9e70f3c7e50ae082f22402b0715c40059c2663"
+  },
+  {
+    "filename": "bear-06.jpg",
+    "category": "bear",
+    "source_title": "File:Eurasian brown bear (Ursus arctos arctos) female 2.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_female_2.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_2.jpg/960px-Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "cccefbc5ed3304bcda7354529d327d3e7631668d898877220cc98f317e449b8f"
+  },
+  {
+    "filename": "bear-07.jpg",
+    "category": "bear",
+    "source_title": "File:Eurasian brown bear (Ursus arctos arctos) female 3.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_female_3.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_3.jpg/960px-Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "37d486d624008396a59d64725634cc852e66930257449b9fc25b49e844862ba6"
+  },
+  {
+    "filename": "bear-08.jpg",
+    "category": "bear",
+    "source_title": "File:Eurasian brown bear (Ursus arctos arctos) female 4.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_female_4.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_4.jpg/960px-Eurasian_brown_bear_%28Ursus_arctos_arctos%29_female_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "ddbd6864f65c50e6cc0d7fa104c07b439f25db80e5024c2c91d244c16bcd4c93"
+  },
+  {
+    "filename": "deer-01.jpg",
+    "category": "deer",
+    "source_title": "File:Chital in Sanjay Dubri Tiger Reserve December 2024 by Tisha Mukherjee 01.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chital_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_01.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Chital_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_01.jpg/960px-Chital_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tisha Mukherjee",
+    "sha256": "dedda6d03ab9e54b992164550fa1aae68716e5784ab0fb22b3d17e906bab5fa1"
+  },
+  {
+    "filename": "deer-02.jpg",
+    "category": "deer",
+    "source_title": "File:Chital in Sundarbans National Park July 2025 by Tisha Mukherjee 02.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chital_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_02.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Chital_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_02.jpg/960px-Chital_in_Sundarbans_National_Park_July_2025_by_Tisha_Mukherjee_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tisha Mukherjee",
+    "sha256": "174fa5e2e2d4fc6a63183928e502da2309396f3bb2e1de998c8806f29d6339ca"
+  },
+  {
+    "filename": "deer-03.jpg",
+    "category": "deer",
+    "source_title": "File:Fallow Deer (Dama dama).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fallow_Deer_(Dama_dama).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Fallow_Deer_%28Dama_dama%29.jpg/960px-Fallow_Deer_%28Dama_dama%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Michael Gäbler",
+    "sha256": "d6d5458ab90f443f738023e03c04ac1acc5ea699b7422558078a7660f4d37955"
+  },
+  {
+    "filename": "deer-04.jpg",
+    "category": "deer",
+    "source_title": "File:Fallow Deer in the German wood.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fallow_Deer_in_the_German_wood.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Fallow_Deer_in_the_German_wood.jpg/960px-Fallow_Deer_in_the_German_wood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "artist": "Michael Gäbler",
+    "sha256": "9c21db3f9691c7aacac02a8cfd9fd1dce298d076344db3fa1affe72ef8198b8a"
+  },
+  {
+    "filename": "deer-05.jpg",
+    "category": "deer",
+    "source_title": "File:Fallow deer in field.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fallow_deer_in_field.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Fallow_deer_in_field.jpg/960px-Fallow_deer_in_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "artist": "Johann-Nikolaus Andreae",
+    "sha256": "cffcfb18c95ee476017279a68da5319d2bd9110f30abbb2c7dc9d7bfd3a02a53"
+  },
+  {
+    "filename": "deer-06.jpg",
+    "category": "deer",
+    "source_title": "File:RedDeerStag.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RedDeerStag.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/RedDeerStag.jpg/960px-RedDeerStag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "artist": "derivative work: Massimo Catarinella (talk)\nRed_deer_stag.jpg: Mehmet Karatay",
+    "sha256": "34d4cb9347555e3a38546ff8dd41d635fad6f8f45169cd79589a47cfd36d4ea6"
+  },
+  {
+    "filename": "deer-07.jpg",
+    "category": "deer",
+    "source_title": "File:Red deer (Cervus elaphus) hind.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_deer_(Cervus_elaphus)_hind.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Red_deer_%28Cervus_elaphus%29_hind.jpg/960px-Red_deer_%28Cervus_elaphus%29_hind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "af6747b69610dc96e003a5d945ef19b1635748162129db3770e326331c5e6190"
+  },
+  {
+    "filename": "deer-08.jpg",
+    "category": "deer",
+    "source_title": "File:Red deer (Cervus elaphus) young stag.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Red_deer_(Cervus_elaphus)_young_stag.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Red_deer_%28Cervus_elaphus%29_young_stag.jpg/960px-Red_deer_%28Cervus_elaphus%29_young_stag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "sha256": "2bf6af2f1220baafb2aa7063b61a7257a1810397ae0574c3d7b4567ff58894cc"
+  },
+  {
+    "filename": "ambiguous-01.jpg",
+    "category": "ambiguous",
+    "source_title": "File:Americana Fox - Red Fox.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Americana_Fox_-_Red_Fox.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Americana_Fox_-_Red_Fox.jpg/960px-Americana_Fox_-_Red_Fox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "artist": "W. Kuhnert",
+    "sha256": "c87a375f273af48f2fe3125decee26097d7da4e829a859cd4d880dfe03626d96"
+  },
+  {
+    "filename": "ambiguous-02.jpg",
+    "category": "ambiguous",
+    "source_title": "File:Taxidermy of Red fox - 1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taxidermy_of_Red_fox_-_1.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Taxidermy_of_Red_fox_-_1.jpg/960px-Taxidermy_of_Red_fox_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "artist": "KKPCW",
+    "sha256": "8b27a4229bcaf4333ac4a6ae2eb3e262e895c658b2d8efc0a3f1e93d86575e01"
+  }
+]

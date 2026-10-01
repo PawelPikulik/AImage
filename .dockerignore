@@ -1,0 +1,10 @@
+.git
+.venv
+venv
+__pycache__
+.pytest_cache
+.e2e-tmp
+data/corpus
+.env
+*.md
+!README.md

@@ -1,0 +1,25 @@
+# Secrets — never commit real keys
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Corpus images — reproducible via scripts/download_corpus.py (kept out of git per size rules)
+data/corpus/
+
+# Local end-to-end scratch
+.e2e-tmp*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
