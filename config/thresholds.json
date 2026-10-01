@@ -1,0 +1,11 @@
+{
+  "match_threshold": 0.2,
+  "confidence_floor": 0.7,
+  "tuned_by": "scripts/tune_thresholds.py against data/eval_set.json",
+  "tuned_result": {
+    "value": 0.2,
+    "top1_precision": 1.0,
+    "rejection_accuracy": 1.0,
+    "provider": "mock"
+  }
+}
